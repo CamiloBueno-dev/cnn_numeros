@@ -6,7 +6,7 @@ from PIL import Image
 from streamlit_drawable_canvas import st_canvas
 
 # Cargar el logo
-st.image('logo.gif', use_container_width=True)  # Asegúrate de que el logo esté en la misma carpeta que tu script
+#st.image('logo.gif', use_container_width=True)  # Asegúrate de que el logo esté en la misma carpeta que tu script
 
 # Título
 st.title("Camilo Andres Bueno Rey 2025")
@@ -29,7 +29,7 @@ modelo_seleccionado = st.selectbox("Selecciona un modelo", modelos_disponibles)
 modelo = load_model_from_file(modelo_seleccionado)
 
 # Configuración del lienzo
-st.title("Dibuja un número")
+st.title("Dibuja un número ✏️")
 canvas_result = st_canvas(
     fill_color="white",
     stroke_width=10,
