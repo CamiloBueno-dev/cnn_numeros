@@ -14,7 +14,7 @@ else:
     st.warning("No se encontró 'logo.gif'. Asegúrate de que esté en la carpeta.")
 
 # Título
-st.title("ALFREDO DIAZ CLARO 2024")
+st.title("Camilo Andres Bueno Rey 2025")
 
 # Detectar automáticamente archivos .keras en la carpeta
 modelos_disponibles = [f for f in os.listdir() if f.endswith('.keras')]
